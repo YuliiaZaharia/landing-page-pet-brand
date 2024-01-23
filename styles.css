@@ -591,3 +591,34 @@ html {
     margin-bottom: -4em;
     font-size: 12px;
   }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .about-cat-desk  {
+    animation: slideInLeft 1.5s ease-in-out;
+  }
+
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .meowdel-cat-img {
+    animation: slideInRight 1.5s ease-in-out;
+  }
+
+
+
+  
