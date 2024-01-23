@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet your fur-buddy, Dasha the cat, and find happiness in each meow with Oh My CAT's lovely merch"/>
+  <title>Oh my CAT</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/5493b47157.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap" rel="stylesheet">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- START NAV -->
+
+<nav>
+<ul id="navigation" style="display: none">
+<li><a class="nav-link" href="#about">About</a></li>
+<li><a class="nav-link" href="#meowdel">Meowdel</a></li>
+<li><a class="nav-link" href="#catventures">Catventures</a></li>
+<li><a class="nav-link" href="#merch">Merch</a></li>
+<li><a class="nav-link" href="#playtime">Playtime</a></li>
+<li><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+<a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+<i class="fa fa-bars"></i>
+</a>
+</nav>
+
+<!-- END NAV -->
+  
+<!-- START PAGE START -->
+
+<header>
+<div class="start-page-container">
+<div class="start-page-item">
+<img class="about-book" src="cat3.jpg" width="300"/>
+</div>
+  
+<div class="start-page-item">
+<h1>A happy <span>meow</span><br/>journey in your soul & thoughts.</h1>
+<div class="interactive-form">
+<div class="step-0">
+<p class="learn-how">Join Dasha the cat on an adventure to purr joy.</p>
+<button onclick="showStep('step-1')">Show me how</button>
+</div>
+  
+<div class="step-1">
+<form action="javascript:;" onsubmit="showStep2()">
+<input type="input" id="name" placeholder="Enter your name" required/>
+<input type="submit" value="Next"/>
+</form>
+</div>
+  
+<div class="step-2">
+<p>Hello <span>beautiful human</span>, are you ready to meet a new furr-friend?</p>
+<div>
+<a class="underline" href="javascript:;" onclick="showStepExit()">Not yet</a>
+<button onclick="showStep('step-3')">Absolutely</button>
+</div>
+</div>
+  
+<div class="step-3">
+<p>What experience would you like to get on this platform?</p>
+<form action="javascript:;" onsubmit="showStep4()">
+<textarea id="story" name="story" rows="5" cols="10"></textarea>
+<input type="submit" value="Submit"/>
+</form>
+</div>
+  
+<div class="step-4">
+<p>That's wonderful <span>name</span>. We can't wait to meet you.</p>
+<p> We are inviting you to a journey full of fun and fur!
+<a href="#about">next section</a>.</p>
+</div>
+  
+<div class="step-exit">
+<p>It is fine <span>name</span>, you can come back whenever you feel like ✨</p>
+</div>
+</div>
+<img class="open-about" src="logo-oh-my-cat-modified.png" width="300"/></div>
+  
+<div class="start-page-item">
+<img class="about-cat" src="cat4.jpg" width="300"/>
+</div>
+</div>
+</header>
+<!-- START PAGE END -->
+  
+<main>
+<!-- SECTION 1 START -->
+<section id="about" class="about-section">
+<div class="section-container section-image-left">
+<div class="section-photo">
+<img class="about-cat-desk" src="dasha6.jpeg"/>
+</div>
+  
+<div class="section-text">
+<h2 class="about-title">Hello, there!</h2>
+  
+<p class="about-text">
+Take a trip into the charming world of "Oh My CAT," where Dasha, the multicolored cat, the queen. Dasha, who is adored by her loyal family as well as followers all over the world, has become a social media sensation by sharing her adorable moments with everyone.
+Come explore the fun and occasionally hilarious vlifestyle of "Oh My CAT". She has a big appetite and enjoys both the ease of store-bought dry food and the delicious handmade meals that her mom makes with such love. Beyond her culinary adventures, Dasha shows off her humorous side by competing fiercely in football games with her daddy. Being an intrepid traveler at heart, she enjoys discovering new locations even if it's only within her beloved house.
+Do you need a mood boost? Your day will be filled with laughter thanks to Dasha's adventures!
+</p>
+<a href="#" target="_blank">
+<button>Get meow free funny videos</button></a>
+</div>
+</div>
+</section>
+<!-- SECTION 1 ABOUT END -->
+  
+<!-- SECTION 2 MEOWDEL START -->
+<section id="meowdel" class="meowdel-section">
+<div class="section-container section-image-right">
+<div class="section-text">
+<h2 class="meowdel-title">Couture Catwalk</h2>
+
+<p class="meowdel-text">
+Welcome to the 'Meowdel' corner, where Dasha unleashes her inner fashionista! This tricolor sensation finds solace in stealthy hideouts under mom and dad's clothes, transforming mundane moments into a catwalk. Prepare to be captivated by her effortlessly chic poses - Dasha's modeling prowess is the purrfect blend of sophistication and whimsy. With her nonchalant charm and 'love' for the camera, every snapshot is a masterpiece in the making. Contrary to the stereotypes that cats are lazy and uncaring, Dasha shatters expectations by actively participating in every household activity—albeit in her own distinctive style. Prepare to be captivated by a visual feast in which every shot tells a story of glitz and elegance, proving that our cherished cat-buddy is a Meowdel extraordinaire who is establishing new standards for the furry world!
+</p>
+  
+<a href="#" target="_blank">
+<button>Get meow free funny images</button></a>
+</div>
+  
+<div class="section-photo">
+<img class="meowdel-cat-img" src="couture-catwalk.jpeg" width="300"/>
+</div>
+</div>
+</section>
+
+<!-- SECTION 2 MEOWDEL END -->
+  
+<!-- SECTION 3 CATVENTURES START -->
+
+<section id="catventures" class="catventures">
+<div class="section-container section-image-left">
+<div class="section-photo" id="myVideo">
+<video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo" controls><source src="dasha-playing.mp4" type="video/mp4"></video>
+</div>
+  
+<div class="section-text">
+<h2>Garden Chronicles</h2>
+  
+<p>Prepare to be whisked away into a realm of feline wonder as Dasha, embarks on a mesmerizing journey of discovery. Unleashing her playful spirit in the garden, Dasha orchestrates delightful symphonies of mischief alongside her partners in crime, Stepan the savvy cat and Busia the ever-enthusiastic dog. We invite you to dive deep into the heartwarming tales of their escapades, where every meow, tail twitch, and paw print tells a captivating story. Join our cherished feline trio in a narrative of friendship, exploration, and the pure joy of being whisker-deep in life's adventure!</p>
+  
+<a href="#" target="_blank"><button>Get meow free furr-quotes</button></a>
+</div>
+</div>
+</section>
+
+<!-- SECTION 3 SETTING GOALS END -->
+  
+<!-- SECTION 4 MERCH START -->
+
+<section id="merch" class="merch-section">
+<div class="section-container section-image-right">
+<div class="section-text">
+<h2 class="merch-title">Oh my CAT Collection</h2>
+  
+<p class="merch-text">
+This is the ideal location for our favorite multicolored superstar, Dasha, to rule supremely with her own range of products! Dasha is a trendsetter who is more than simply a cat, and now you can bring a little bit of her unique world into your house. Made with the greatest care and attention to detail, our products promise unparalleled quality and longevity in addition to a dash of feline elegance. With our unique merchandise, you can embrace Dasha's charm and infuse your surroundings with a hint of Meow-magic. It's a testimonial to the happiness, coziness, and longevity that "Oh my CAT" promises to provide. Enjoy your feline personality and indulge in the exciting experience of being a cat lover with our exclusive collection. Check out the merch now and show off your passion and elegance as a cat parent!
+</p>
+  
+<a href="#" target="_blank"><button>Get meow merch</button></a>
+</div>
+  
+<div class="section-photo">
+<img class="merch-img" src="merch-oh-my-cat.png" width="400"/></div>
+</div>
+</section>
+
+<!-- SECTION 4 MERCH  END -->
+  
+<!-- SECTION 5 PLAYTIME START -->
+
+<section id="playtime" class="playtime-section">
+<h2 class="playtime-title">Home Entertainment Fiesta</h2>
+<p class="playtime-text">Indulge in laughter and love with your furry friend Dasha.</p>
+  
+<div id="playtime-grid" class="playtime-container">
+<a href="#" target="_blank" class="playtime" id="morning-playtime">
+<img src="dasha3.jpeg" width="200"/>
+<p>Catflix and Chill</p>
+</a>
+<a href="#" target="_blank" class="playtime" id="release-anxiety">
+<img src="dasha2.jpeg" width="230"/>
+<p>Camouflage Dasha Comfort</p>
+</a>
+  
+<a href="#" target="_blank" class="playtime" id="evening-playtime">
+<img src="dasha4.jpeg" width="200"/>
+<p>Paws and Peek-a-Boo</p>
+</a>
+</div>
+</section>
+
+<!-- SECTION 5 PLAYTIME END -->
+
+</main>
+  
+<!-- SECTION 6 FOOTER START -->
+
+<footer id="footer" class="footer-section">
+<div class="footer-container">
+<div>
+<p>Your not average platform<br/>about cheerful buddy</p>
+<img class="footer-logo child-bottom" src="logo-oh-my-cat-modified.png" width="100px"/>
+</div>
+  
+<div>
+<p>Have a nice project in mind or just want to say hi?<br /> Don't be shy, whisk-er us a message anytime!
+</p>
+  
+<form action="mailto:yuliia.zaharia@gmail.com" method="GET" class="child-bottom" >
+<input type="email" id="email" placeholder="Enter your Email" required/>
+<input type="submit" />
+</form>
+</div>
+  
+<div id="contact">
+<p>Love my purr-sonality? Stay connected by <br />following me or dropping an
+<a class="underline" href="mailto:yuliia.zaharia@gmail.com">email.</a>
+</p>
+  
+<ul class="social-ul child-bottom">
+<li><a id="profile-link" href="https://www.pinterest.com/creationfan/" target="_blank"><span class="fab fa-pinterest"></span></a></li>
+<li><a href="https://www.facebook.com/rybalchenko.yuliya/" target="_blank"><span class="fab fa-facebook"></span></a></li>
+<li><a href="https://www.linkedin.com/in/yuliia-zaharia/" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+<li><a href="https://www.instagram.com/yuliia.zaharia/?next=%2F" target="_blank"><span class="fab fa-instagram"></span></a></li>
+</ul>
+</div>
+</div>
+  
+<div class="copywrite"><span>Copyright © 2024 Oh my CAT | Coded by Dev Heart</span></div></footer>
+  
+<!-- SECTION 6 FOOTER END -->
+
+<script src="index.js"></script>
+</body>
+</html>
